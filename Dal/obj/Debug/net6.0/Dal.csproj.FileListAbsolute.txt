@@ -1,0 +1,28 @@
+C:\Users\Bioz\Documents\RLL real\Dal\Dal\bin\Debug\net6.0\Dal.deps.json
+C:\Users\Bioz\Documents\RLL real\Dal\Dal\bin\Debug\net6.0\Dal.runtimeconfig.json
+C:\Users\Bioz\Documents\RLL real\Dal\Dal\bin\Debug\net6.0\Dal.dll
+C:\Users\Bioz\Documents\RLL real\Dal\Dal\bin\Debug\net6.0\Dal.pdb
+C:\Users\Bioz\Documents\RLL real\Dal\Dal\obj\Debug\net6.0\Dal.csproj.AssemblyReference.cache
+C:\Users\Bioz\Documents\RLL real\Dal\Dal\obj\Debug\net6.0\Dal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bioz\Documents\RLL real\Dal\Dal\obj\Debug\net6.0\Dal.AssemblyInfoInputs.cache
+C:\Users\Bioz\Documents\RLL real\Dal\Dal\obj\Debug\net6.0\Dal.AssemblyInfo.cs
+C:\Users\Bioz\Documents\RLL real\Dal\Dal\obj\Debug\net6.0\Dal.csproj.CoreCompileInputs.cache
+C:\Users\Bioz\Documents\RLL real\Dal\Dal\obj\Debug\net6.0\Dal.dll
+C:\Users\Bioz\Documents\RLL real\Dal\Dal\obj\Debug\net6.0\refint\Dal.dll
+C:\Users\Bioz\Documents\RLL real\Dal\Dal\obj\Debug\net6.0\Dal.pdb
+C:\Users\Bioz\Documents\RLL real\Dal\Dal\obj\Debug\net6.0\Dal.genruntimeconfig.cache
+C:\Users\Bioz\Documents\RLL real\Dal\Dal\obj\Debug\net6.0\ref\Dal.dll
+C:\Users\anant\OneDrive\Desktop\RLL\Dal\Dal\Dal\bin\Debug\net6.0\Dal.deps.json
+C:\Users\anant\OneDrive\Desktop\RLL\Dal\Dal\Dal\bin\Debug\net6.0\Dal.runtimeconfig.json
+C:\Users\anant\OneDrive\Desktop\RLL\Dal\Dal\Dal\bin\Debug\net6.0\Dal.dll
+C:\Users\anant\OneDrive\Desktop\RLL\Dal\Dal\Dal\bin\Debug\net6.0\Dal.pdb
+C:\Users\anant\OneDrive\Desktop\RLL\Dal\Dal\Dal\obj\Debug\net6.0\Dal.csproj.AssemblyReference.cache
+C:\Users\anant\OneDrive\Desktop\RLL\Dal\Dal\Dal\obj\Debug\net6.0\Dal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anant\OneDrive\Desktop\RLL\Dal\Dal\Dal\obj\Debug\net6.0\Dal.AssemblyInfoInputs.cache
+C:\Users\anant\OneDrive\Desktop\RLL\Dal\Dal\Dal\obj\Debug\net6.0\Dal.AssemblyInfo.cs
+C:\Users\anant\OneDrive\Desktop\RLL\Dal\Dal\Dal\obj\Debug\net6.0\Dal.csproj.CoreCompileInputs.cache
+C:\Users\anant\OneDrive\Desktop\RLL\Dal\Dal\Dal\obj\Debug\net6.0\Dal.dll
+C:\Users\anant\OneDrive\Desktop\RLL\Dal\Dal\Dal\obj\Debug\net6.0\refint\Dal.dll
+C:\Users\anant\OneDrive\Desktop\RLL\Dal\Dal\Dal\obj\Debug\net6.0\Dal.pdb
+C:\Users\anant\OneDrive\Desktop\RLL\Dal\Dal\Dal\obj\Debug\net6.0\Dal.genruntimeconfig.cache
+C:\Users\anant\OneDrive\Desktop\RLL\Dal\Dal\Dal\obj\Debug\net6.0\ref\Dal.dll

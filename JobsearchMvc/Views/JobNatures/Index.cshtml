@@ -1,0 +1,23 @@
+﻿@model List<Dal.Models.JobNature>
+<h2>Job Natures</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Job Nature ID</th>
+            <th>Job Nature Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var nature in Model)
+        {
+            <tr>
+                <td>@nature.JobNatureId</td>
+                <td>@nature.JobNatureName</td>
+            </tr>
+        }
+    </tbody>
+</table>

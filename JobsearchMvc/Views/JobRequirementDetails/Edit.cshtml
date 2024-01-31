@@ -1,0 +1,41 @@
+﻿@model Dal.Models.JobRequirementDetails
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<div>
+    <h4>Job Requirement Details</h4>
+    <hr />
+    <form asp-action="Edit" method="post">
+        <input type="hidden" asp-for="JobRequirementDetailsId" />
+
+        <div class="form-group">
+            <label asp-for="JobRequirementDetailsText" class="control-label"></label>
+            <input asp-for="JobRequirementDetailsText" class="form-control" />
+            <span asp-validation-for="JobRequirementDetailsText" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="JobRequirementId" class="control-label"></label>
+            <input asp-for="JobRequirementId" class="form-control" />
+            <span asp-validation-for="JobRequirementId" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="PostJobId" class="control-label"></label>
+            <input asp-for="PostJobId" class="form-control" />
+            <span asp-validation-for="PostJobId" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <input type="submit" value="Save" class="btn btn-primary" />
+        </div>
+    </form>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>

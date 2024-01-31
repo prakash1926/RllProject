@@ -1,0 +1,27 @@
+﻿@model List<Dal.Models.JobCategory>
+
+<h2>Job Categories</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Job Category ID</th>
+            <th>Job Category Name</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var category in Model)
+        {
+            <tr>
+                <td>@category.JobCategoryId</td>
+                <td>@category.JobCategoryName</td>
+                <td>@category.Description</td>
+            </tr>
+        }
+    </tbody>
+</table>

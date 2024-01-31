@@ -1,0 +1,13 @@
+﻿@model Dal.Models.UserType
+
+<h2>Create UserType</h2>
+
+<form asp-action="Create">
+    <div class="form-group">
+        <label asp-for="UserTypeText"></label>
+        <input asp-for="UserTypeText" class="form-control" />
+        <span asp-validation-for="UserTypeText" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Create</button>
+</form>

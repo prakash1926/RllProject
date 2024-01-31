@@ -1,0 +1,33 @@
+﻿@model IEnumerable<Dal.Models.User>
+
+<h2>Users</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>UserId</th>
+            <th>UserName</th>
+            <th>EmailAddress</th>
+            <th>ContactNo</th>
+            <!-- Add other columns as needed -->
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.UserId</td>
+                <td>@user.UserName</td>
+                <td>@user.EmailAddress</td>
+                <td>@user.ContactNo</td>
+                <!-- Add other columns as needed -->
+                <td>
+                    <a asp-action="Edit" asp-route-id="@user.UserId">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@user.UserId">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@user.UserId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

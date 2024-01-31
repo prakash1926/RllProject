@@ -1,0 +1,39 @@
+﻿@model List<Dal.Models.PrimarySkill>
+
+<h1>Primary Skills</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.First().PrimarySkill_Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().PrimarySkill_Name)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PrimarySkill_Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PrimarySkill_Name)
+                </td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@item.PrimarySkill_Id">Details</a> |
+                    <a asp-action="Edit" asp-route-id="@item.PrimarySkill_Id">Edit</a> |
+                    <a asp-action="Delete" asp-route-id="@item.PrimarySkill_Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

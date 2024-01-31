@@ -1,0 +1,38 @@
+﻿@using Dal.Models
+
+@model IEnumerable<Dal.Models.Company>
+
+<h1>List of Companies</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>Company Name</th>
+            <th>CompanyId</th>
+            <th>UserId</th>
+            <th>ContactNo</th>
+            <th>PhoneNo</th>
+            <th>EmailAddress</th>
+            <th>Logo</th>
+            <th>Description</th>
+            <!-- Add more columns as needed -->
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var company in Model)
+        {
+            <tr>
+                <td>@company.CompanyName</td>
+                <td>@company.CompanyId</td>
+                <td>@company. UserId</td>
+                <td>@company.ContactNo</td>
+                <td>@company.PhoneNo</td>
+                <td>@company.EmailAddress</td>
+                <td>@company.Logo</td>
+                <td>@company.Description</td>
+                
+                <!-- Display additional properties as needed -->
+            </tr>
+        }
+    </tbody>
+</table>

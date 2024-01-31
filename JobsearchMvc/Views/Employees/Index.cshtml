@@ -1,0 +1,60 @@
+﻿@model List<Dal.Models.Employee>
+
+<h2>Employee List</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Employee ID</th>
+            <th>UserId</th>
+            <th>Employee Name</th>
+            <th>Dob</th>
+            <th>Education</th>
+            <th>WorkExperience</th>
+            <th>Skills</th>
+            <th>EmailAddress</th>
+            <th>PassedOutYear</th>
+            <th>PermanentAddress</th>
+            <th>Description</th>
+            <th>PostJobID</th>
+            <th>JobTitle</th>
+            
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var employee in Model)
+        {
+            <tr>
+                <td>@employee.EmployeeId</td>
+                <td>@employee.UserId </td>
+                <td>@employee.EmployeeName</td>
+                <td>@employee.Dob </td>
+                <td>@employee.Education</td>
+                <td>@employee.WorkExperience</td>
+                <td>@employee.Skills</td>
+                <td>@employee.EmailAddress</td>
+                <td>@employee.Gender</td>
+                
+                <td>@employee.PassedOutYear</td>
+                <td>@employee.PermanentAddress</td>
+                <td>@employee.Description</td>
+                <td>@employee. PostJobID</td>
+                <td>@employee.JobTitle</td>
+                
+                
+
+
+                <td>
+                    <a asp-action="Edit" asp-route-id="@employee.EmployeeId">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@employee.EmployeeId">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@employee.EmployeeId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

@@ -1,0 +1,55 @@
+﻿@model Dal.Models.PostJob
+
+<h1>Edit Post Job</h1>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="PostJobId" />
+    <div class="form-group">
+        <label asp-for="JobTitle" class="control-label"></label>
+        <input asp-for="JobTitle" class="form-control" />
+        <span asp-validation-for="JobTitle" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="JobDescription" class="control-label"></label>
+        <textarea asp-for="JobDescription" class="form-control" rows="4"></textarea>
+        <span asp-validation-for="JobDescription" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="MinSalary" class="control-label"></label>
+        <input asp-for="MinSalary" class="form-control" />
+        <span asp-validation-for="MinSalary" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="MaxSalary" class="control-label"></label>
+        <input asp-for="MaxSalary" class="form-control" />
+        <span asp-validation-for="MaxSalary" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Location" class="control-label"></label>
+        <input asp-for="Location" class="form-control" />
+        <span asp-validation-for="Location" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Vacancy" class="control-label"></label>
+        <input asp-for="Vacancy" class="form-control" />
+        <span asp-validation-for="Vacancy" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="JobNatureId" class="control-label"></label>
+        <input asp-for="JobNatureId" class="form-control" />
+        <span asp-validation-for="JobNatureId" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="ApplicationDeadline" class="control-label"></label>
+        <input asp-for="ApplicationDeadline" class="form-control" />
+        <span asp-validation-for="ApplicationDeadline" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="LastDate" class="control-label"></label>
+        <input asp-for="LastDate" class="form-control" />
+        <span asp-validation-for="LastDate" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Save" class="btn btn-primary" />
+    </div>
+</form>

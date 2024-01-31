@@ -1,0 +1,45 @@
+﻿@model IEnumerable<Dal.Models.JobRequirementDetails>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Job Requirement Details Index</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.JobRequirementDetailsText)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.JobRequirementId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PostJobId)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.JobRequirementDetailsText)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.JobRequirementId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PostJobId)
+                </td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@item.JobRequirementDetailsId">Details</a> |
+                    <a asp-action="Edit" asp-route-id="@item.JobRequirementDetailsId">Edit</a> |
+                    <a asp-action="Delete" asp-route-id="@item.JobRequirementDetailsId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

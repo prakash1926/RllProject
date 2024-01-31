@@ -1,0 +1,27 @@
+﻿@model IEnumerable<Dal.Models.UserType>
+
+<h2>UserType List</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>UserTypeId</th>
+            <th>UserTypeText</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var userType in Model)
+        {
+            <tr>
+                <td>@userType.UserTypeId</td>
+                <td>@userType.UserTypeText</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@userType.UserTypeId">Details</a> |
+                    <a asp-action="Edit" asp-route-id="@userType.UserTypeId">Edit</a> |
+                    <a asp-action="Delete" asp-route-id="@userType.UserTypeId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
